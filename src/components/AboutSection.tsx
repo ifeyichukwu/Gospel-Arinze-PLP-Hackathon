@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from 'react';
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const AboutSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,7 +33,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-portfolio-accent to-portfolio-secondary rounded-2xl blur-md opacity-30 transform -rotate-3 scale-105"></div>
             <img 
-              src="/profile-placeholder.jpg" 
+              src="/lovable-uploads/b3f8f79e-072f-4db6-b3ad-87b6f020d7d6.png" 
               alt="Gospel Ifeyichukwu Arinze" 
               className="relative w-64 h-80 md:w-80 md:h-96 object-cover rounded-2xl border-4 border-white/20 shadow-xl"
             />

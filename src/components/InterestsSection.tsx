@@ -34,17 +34,17 @@ const InterestsSection = () => {
     {
       title: "Software Development",
       icon: <Code className="w-8 h-8" />,
-      imageSrc: "/software-placeholder.jpg"
+      imageSrc: "/lovable-uploads/87e38d67-321d-4300-8ea1-95b85071a478.png"
     },
     {
       title: "Data Analysis",
       icon: <Database className="w-8 h-8" />,
-      imageSrc: "/data-placeholder.jpg"
+      imageSrc: "/lovable-uploads/9ce0122e-ddb3-4b16-98c8-94afb25b4a9f.png"
     },
     {
       title: "Artificial Intelligence",
       icon: <Brain className="w-8 h-8" />,
-      imageSrc: "/ai-placeholder.jpg"
+      imageSrc: "/lovable-uploads/2a1f9dff-0f97-4135-abba-02b770dce69f.png"
     }
   ];
   

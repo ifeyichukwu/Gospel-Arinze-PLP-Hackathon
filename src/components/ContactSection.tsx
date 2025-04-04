@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { useToast } from "@/components/ui/use-toast";
-import { Github, Linkedin, Twitter, Send, MapPin, Mail, Phone } from 'lucide-react';
+import { Send, MapPin, Mail, Phone } from 'lucide-react';
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -56,19 +56,19 @@ const ContactSection = () => {
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/gospel-arinze-55590424a/",
-      icon: <Linkedin className="w-5 h-5" />,
+      iconSrc: "/lovable-uploads/8c82f56d-a3f3-4901-9926-e956e2e830b1.png",
       hoverColor: "hover:bg-blue-500"
     },
     {
       name: "GitHub",
       url: "https://github.com/ifeyichukwu",
-      icon: <Github className="w-5 h-5" />,
+      iconSrc: "/lovable-uploads/63f0f8a9-8588-42e5-8536-2724bf654e12.png",
       hoverColor: "hover:bg-gray-700"
     },
     {
       name: "X",
       url: "https://x.com/gospel8089?t=B3ZC2KXPTgHytNVMucumyw&s=09",
-      icon: <Twitter className="w-5 h-5" />,
+      iconSrc: "/lovable-uploads/2ed93884-95d3-4d84-84d1-2bc6cc56b71c.png",
       hoverColor: "hover:bg-black"
     }
   ];
@@ -193,10 +193,14 @@ const ContactSection = () => {
                     href={link.url} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className={`p-3 bg-white/10 rounded-full transition-all duration-300 ${link.hoverColor} hover:text-white`}
+                    className={`p-2 bg-white/10 rounded-full transition-all duration-300 ${link.hoverColor} hover:text-white`}
                     aria-label={link.name}
                   >
-                    {link.icon}
+                    <img 
+                      src={link.iconSrc} 
+                      alt={link.name} 
+                      className="w-6 h-6"
+                    />
                   </a>
                 ))}
               </div>

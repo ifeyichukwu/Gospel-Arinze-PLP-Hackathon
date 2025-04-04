@@ -6,7 +6,7 @@ This is a modern and responsive personal portfolio website built during a hackat
 
 ## 🚀 Live Demo
 
-🌐 [View Portfolio Website](https://gospel-arinze-plp-hackathon.vercel.app/)  \
+🌐 [View Portfolio Website](https://gospel-arinze-plp-hackathon.vercel.app/) 
 
 ---
 

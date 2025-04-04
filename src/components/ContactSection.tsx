@@ -56,19 +56,19 @@ const ContactSection = () => {
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/gospel-arinze-55590424a/",
-      iconSrc: "/lovable-uploads/8c82f56d-a3f3-4901-9926-e956e2e830b1.png",
+      iconSrc: "/lovable-uploads/af55577e-0949-46a7-94d1-92eade836704.png", // Auto water pump image
       hoverColor: "hover:bg-blue-500"
     },
     {
       name: "GitHub",
       url: "https://github.com/ifeyichukwu",
-      iconSrc: "/lovable-uploads/63f0f8a9-8588-42e5-8536-2724bf654e12.png",
+      iconSrc: "/lovable-uploads/8c82f56d-a3f3-4901-9926-e956e2e830b1.png", // LinkedIn icon
       hoverColor: "hover:bg-gray-700"
     },
     {
       name: "X",
       url: "https://x.com/gospel8089?t=B3ZC2KXPTgHytNVMucumyw&s=09",
-      iconSrc: "/lovable-uploads/2ed93884-95d3-4d84-84d1-2bc6cc56b71c.png",
+      iconSrc: "/lovable-uploads/5b816c24-f7d2-44cd-9212-5e6bf4bc35e4.png", // Hydro-water wheel image
       hoverColor: "hover:bg-black"
     }
   ];

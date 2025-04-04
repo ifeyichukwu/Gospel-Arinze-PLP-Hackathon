@@ -36,19 +36,19 @@ const ProjectsSection = () => {
       title: "The Hydro-Water Wheel Project",
       description: "A sustainable approach to generate electricity by the turning force of flowing water.",
       link: "https://drive.google.com/drive/folders/1thUya0X9Dm90eWhi_ZxHi961dpHixXLV?usp=sharing",
-      imageSrc: "/lovable-uploads/5b816c24-f7d2-44cd-9212-5e6bf4bc35e4.png"
+      imageSrc: "/lovable-uploads/2ed93884-95d3-4d84-84d1-2bc6cc56b71c.png" // X icon image
     },
     {
       title: "The Autonomous Water Pump",
       description: "The IOT based project enhances reduces wastage of energy and water.",
       link: "https://drive.google.com/drive/folders/15j3OUQ-WA5eKgHVbXey1e9aVPSj6M3Qb?usp=sharing",
-      imageSrc: "/lovable-uploads/af55577e-0949-46a7-94d1-92eade836704.png"
+      imageSrc: "/lovable-uploads/b3f8f79e-072f-4db6-b3ad-87b6f020d7d6.png" // About image
     },
     {
       title: "UDEMY LANDING PAGE",
       description: "The Final HTML/CSS project in the Stutern Academy.",
       link: "https://github.com/ifeyichukwu/udemy_landing_page",
-      imageSrc: "/lovable-uploads/22e3f4fb-8f4a-40aa-901b-f045c31e8e23.png"
+      imageSrc: "/lovable-uploads/22e3f4fb-8f4a-40aa-901b-f045c31e8e23.png" // Keep this image as is
     }
   ];
   

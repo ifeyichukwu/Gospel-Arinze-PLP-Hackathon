@@ -134,4 +134,4 @@ Built with 💖 using React + Tailwind CSS
 
 Powered by Vite for lightning-fast development
 
-### Gospel Arinze ### template, accompanied with modern portfolio designs across the web.
+### Gospel Arinze template, accompanied with modern portfolio designs across the web.

@@ -33,7 +33,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-portfolio-accent to-portfolio-secondary rounded-2xl blur-md opacity-30 transform -rotate-3 scale-105"></div>
             <img 
-              src="/lovable-uploads/63f0f8a9-8588-42e5-8536-2724bf654e12.png" 
+              src="/lovable-uploads/8c82f56d-a3f3-4901-9926-e956e2e830b1.png" 
               alt="Gospel Ifeyichukwu Arinze" 
               className="relative w-64 h-80 md:w-80 md:h-96 object-cover rounded-2xl border-4 border-white/20 shadow-xl"
             />

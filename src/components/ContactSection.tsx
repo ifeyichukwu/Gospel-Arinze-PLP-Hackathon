@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { useToast } from "@/components/ui/use-toast";
-import { Send, MapPin, Mail, Phone } from 'lucide-react';
+import { Send, MapPin, Mail, Phone, Linkedin, Github, Twitter } from 'lucide-react';
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -56,19 +56,19 @@ const ContactSection = () => {
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/gospel-arinze-55590424a/",
-      iconSrc: "/lovable-uploads/af55577e-0949-46a7-94d1-92eade836704.png", // Auto water pump image
+      icon: Linkedin,
       hoverColor: "hover:bg-blue-500"
     },
     {
       name: "GitHub",
       url: "https://github.com/ifeyichukwu",
-      iconSrc: "/lovable-uploads/8c82f56d-a3f3-4901-9926-e956e2e830b1.png", // LinkedIn icon
+      icon: Github,
       hoverColor: "hover:bg-gray-700"
     },
     {
       name: "X",
       url: "https://x.com/gospel8089?t=B3ZC2KXPTgHytNVMucumyw&s=09",
-      iconSrc: "/lovable-uploads/5b816c24-f7d2-44cd-9212-5e6bf4bc35e4.png", // Hydro-water wheel image
+      icon: Twitter,
       hoverColor: "hover:bg-black"
     }
   ];
@@ -187,22 +187,21 @@ const ContactSection = () => {
             <div className="mt-8">
               <h4 className="font-medium mb-4 text-center">Follow Me</h4>
               <div className="flex justify-center gap-4">
-                {socialLinks.map((link, index) => (
-                  <a 
-                    key={index}
-                    href={link.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className={`p-2 bg-white/10 rounded-full transition-all duration-300 ${link.hoverColor} hover:text-white`}
-                    aria-label={link.name}
-                  >
-                    <img 
-                      src={link.iconSrc} 
-                      alt={link.name} 
-                      className="w-6 h-6"
-                    />
-                  </a>
-                ))}
+                {socialLinks.map((link, index) => {
+                  const Icon = link.icon;
+                  return (
+                    <a 
+                      key={index}
+                      href={link.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className={`p-2 bg-white/10 rounded-full transition-all duration-300 ${link.hoverColor} hover:text-white`}
+                      aria-label={link.name}
+                    >
+                      <Icon className="w-6 h-6" />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>

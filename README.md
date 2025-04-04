@@ -80,6 +80,8 @@ npm install
 # Start development server
 npm run dev
 The site should be available at http://localhost:5173/
+```
+
 
 ---
 

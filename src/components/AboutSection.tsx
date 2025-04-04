@@ -42,27 +42,7 @@ const AboutSection = () => {
         
         <div className="w-full lg:w-2/3 text-portfolio-light">
           <p className="mb-4 leading-relaxed">
-            Gospel is a passionate innovator, problem solver, and tech enthusiast
-            with a background in Electronics and Computer Engineering. He has a
-            strong interest in robotics, artificial intelligence, and software
-            development, constantly exploring ways to apply technology to
-            real-world challenges.
-          </p>
-          <p className="mb-4 leading-relaxed">
-            His passion for sustainability and energy innovation drives his work
-            on projects like real-time energy monitoring, smart home automation,
-            and prepaid metering systems. Beyond tech, he is deeply committed to
-            youth empowerment, leadership, and community engagement, actively
-            contributing to organizations like SPE LASU and RAIN-INN LASU to drive
-            impact.
-          </p>
-          <p className="mb-4 leading-relaxed">
-            Gospel thrives on collaboration, continuous learning, and building
-            solutions that make a difference.
-          </p>
-          <p className="leading-relaxed">
-            His motivation comes from a desire to empower people, optimize
-            systems, and shape the future of technology in Africa and beyond. 🚀
+            Gospel is a passionate software engineer and AI enthusiast with a background in Electronics and Computer Engineering. He is driven by a desire to build intelligent systems that solve real-world problems, with interests in machine learning, automation, and impactful tech innovation.
           </p>
         </div>
       </div>
